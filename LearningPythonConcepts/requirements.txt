@@ -1,0 +1,15 @@
+# requirements.txt
+# -----------------------------------------------------------------------------
+# This file lists all the EXTERNAL Python packages this project needs.
+# Lines starting with '#' are comments and are ignored.
+# Each line is one package, optionally pinned to a specific version with '=='.
+#
+# To install everything in this file at once, run:
+#     pip install -r requirements.txt
+#
+# Pinning versions (e.g. python-dotenv==1.0.0) makes sure everyone working on
+# the project gets the same versions, avoiding "it works on my machine" bugs.
+# -----------------------------------------------------------------------------
+
+# Loads variables from a .env file into os.environ
+python-dotenv==1.0.0

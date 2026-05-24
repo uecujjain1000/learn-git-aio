@@ -1,0 +1,42 @@
+# .gitignore
+# -----------------------------------------------------------------------------
+# Files and folders listed here will NOT be tracked by Git.
+# Use this to keep secrets, generated files, and machine-specific files out
+# of your repository.
+# -----------------------------------------------------------------------------
+
+# Python compiled bytecode cache (auto-generated, no need to commit)
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment folders (machine-specific, contains thousands of files)
+venv/
+env/
+.venv/
+
+# Environment variables file (contains SECRETS - never commit!)
+.env
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build / distribution artifacts (created when running setup.py)
+build/
+dist/
+*.egg-info/
+
+# Log files
+*.log
+logs/
